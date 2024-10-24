@@ -15,5 +15,5 @@ router.delete('/mahasiswa/:npm', MhsController.deleteMhs);
 router.put('/mahasiswa/:npm', MhsController.updateMhs);
 
 
-router.put('/mahasiswa/:npm', MhsController.getAllMhs);
+router.put('/mahasiswa/:npm', MhsController);
 module.exports = router;
